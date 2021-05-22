@@ -29,7 +29,7 @@ const Navbar = () => {
                 <a className="nav-link" href="www.codeacademy.com">how work</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="www.codeacademy.com">protfolio</a>
+                <a className="nav-link" href="www.codeacademy.com">portfolio</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="www.codeacademy.com">contacts</a>

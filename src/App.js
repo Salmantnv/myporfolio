@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Particles from "react-particles-js";
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import AboutMe from "./components/AboutMe.js";
+import Services from "./components/Services";
 function App() {
   return (
    <>
@@ -32,6 +34,10 @@ function App() {
   }}
   /> 
   <Header />
+  <AboutMe />
+  <Services />
+  
+  
   </>
   );
 }
