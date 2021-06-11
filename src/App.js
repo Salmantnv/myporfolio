@@ -6,6 +6,8 @@ import Particles from "react-particles-js";
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import AboutMe from "./components/AboutMe.js";
 import Services from "./components/Services";
+import Portfolio from './components/Portfolio';
+import Testimonials from './components/Testimonials';
 function App() {
   return (
    <>
@@ -36,6 +38,8 @@ function App() {
   <Header />
   <AboutMe />
   <Services />
+  <Portfolio />
+  <Testimonials />
   
   
   </>

@@ -6,6 +6,7 @@
   --primary-dark: rgba(255,255,255, 0);
   --primary-red: #ef4035;
   --primary-hover-red:#f33501;
+  --primary-grey: rgba(0,0,0,0.7);
 }
 
 body {
@@ -211,7 +212,8 @@ nav ul li {
      height: 18rem;
      padding: 1rem;
      border-bottom:0.3125rem solid var(--primary-orange);
-   }
+     transition: 0.3s ease-in-out;
+    }
 
    .services .box:hover{
      background: var(--primary-orange);
@@ -233,7 +235,121 @@ nav ul li {
   }
   
 
-
-
-
+ /************************* Portfolio ********************/
+ .portfolio-wrapper {
+   background: beige;
+   padding: 3rem 0;
+ }
+ .portfolio-wrapper .portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+  width: 15rem;
   
+  
+}
+.portfolio-wrapper .portfolio-image {
+   height: 10rem;
+   width: 15rem;
+   border: 1px solid var(--primary-orange);
+   padding: 0.3rem 0.3rem;
+
+ }
+/************************* Overflow box********************/
+ 
+.portfolio-wrapper .portfolio-image-box .overflow {
+  position: absolute;
+  width: 15rem;
+  height: 10rem;
+  opacity: 0;
+  background: black;
+  top:0;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.portfolio-wrapper .portfolio-image-box:hover .overflow{
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+ 
+/************************* Searchbar icon********************/
+.portfolio-wrapper .portfolio-image-box .portfolio-search-icon {
+  position: absolute;
+  color:#ff8400;
+  top: 50%;
+  margin-left: 6.8rem;
+  opacity: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.portfolio-wrapper .portfolio-image-box:hover .portfolio-search-icon{
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+}
+
+/********************* Popup Ravenous ***************/
+
+
+.popupRavenousPicture {
+  width: 40rem;
+}
+
+
+@media (max-width: 768px){
+  .popupbox-content{
+    width: 100%;
+  }
+
+}
+@media (max-height:500px){
+  .popupbox-wrapper {
+    height:100% !important;
+    width: 100%;
+  }
+}
+
+
+/********************* Testimonials ***************/
+
+.testimonials {
+  background: url(testimonials-bg.jpg);
+  text-align: center;
+  width:100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height: 35rem;
+}
+
+.testimonials-header {
+  text-transform: uppercase;
+  color: #f9ab00;
+  font-weight: 600;
+}
+.carousel-content {
+  padding-top: 2rem;
+  width: 100%;
+  background: var(--primary-grey);
+  height: 25rem ;
+
+}
+.carousel-content img {
+  width: 10rem !important;
+  height: 10rem;
+}
+
+.carousel-content h3 {
+  color: #f9ab00 !important;
+  font-weight: 500;
+}
+
+.carousel-content p {
+  color: #f9ab00 !important;
+  font-weight: 400;
+  margin-top: 2rem !important;
+  margin-left: 8rem !important;
+  margin-right: 8rem !important;
+  padding-bottom: 5rem !important;
+  font-size: 160% !important;
+  
+}
+
