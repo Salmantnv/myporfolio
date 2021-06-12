@@ -8,6 +8,7 @@ import AboutMe from "./components/AboutMe.js";
 import Services from "./components/Services";
 import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
+import Contacts from './components/Contacts';
 function App() {
   return (
    <>
@@ -40,6 +41,7 @@ function App() {
   <Services />
   <Portfolio />
   <Testimonials />
+  <Contacts />
   
   
   </>
