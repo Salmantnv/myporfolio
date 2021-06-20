@@ -4,7 +4,7 @@ import { faFacebookF,faReact,faNode,faAndroid } from '@fortawesome/free-brands-s
 import { faPalette } from '@fortawesome/free-solid-svg-icons'
 const Services = () => {
     return (
-        <div className = "services">
+        <div className = "services" id = "services">
             <h1 className="py-5">My services</h1>
             <div className = "container">
                 <div className= "row">
@@ -12,7 +12,7 @@ const Services = () => {
                      <div className = "box">
                      <div className= "circle"><FontAwesomeIcon className = "icons" icon={faReact} size = "2x" /></div>
                     <h3>React.js,Web app Development</h3>
-                     <p>l will develop your web app that will suprise your clients. For all kinds of webapp ideas , there are high-tech solutions </p>
+                     <p>l will develop your web app that will suprise your clients. </p>
                      </div>
                  </div>    
                    

@@ -9,6 +9,7 @@ import {
     RedditIcon,
     RedditShareButton
 } from "react-share";
+import {Link} from 'react-scroll';
 
 const Footer = () => {
     return (
@@ -35,19 +36,19 @@ const Footer = () => {
                     <div className = "col-lg-3 col-sm-2 col-xs-6">
                        <div className = "row">
                        <div className = "col">
-                           <p className="footer-services">Home</p>
+                        <Link to = "home"   >  <p className="footer-services">Home</p></Link> 
                
-                          <p className="footer-services">About Me</p>
+                        <Link to = "aboutme" offset={-40} ><p className="footer-services">About Me</p></Link> 
                     
-                          <p className="footer-services">Services</p>
+                        <Link to = "services" offset={-60}> <p className="footer-services">Services</p></Link> 
                         
                        </div>
                        <div className = "col">
-                        <p className="footer-services">How work</p>
+                       <Link to = "portfolio" offset={-60}><p className="footer-services">Portfolio</p></Link> 
               
-                       <p className="footer-services">Portfolio</p>
+                       <Link to = "review" offset={-55}> <p className="footer-services">Reviews</p></Link> 
                       
-                        <p className="footer-services">Contacts</p>
+                       <Link to = "contacts" offset={-55}>  <p className="footer-services">Contacts</p></Link> 
                   
                              </div>
                          </div>
