@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/myporfolio/static/css/main.97b372fd.chunk.css",
+    "main.js": "/myporfolio/static/js/main.5de94b21.chunk.js",
+    "main.js.map": "/myporfolio/static/js/main.5de94b21.chunk.js.map",
+    "runtime-main.js": "/myporfolio/static/js/runtime-main.bd00dd6a.js",
+    "runtime-main.js.map": "/myporfolio/static/js/runtime-main.bd00dd6a.js.map",
+    "static/css/2.adb406d7.chunk.css": "/myporfolio/static/css/2.adb406d7.chunk.css",
+    "static/js/2.621eb7f8.chunk.js": "/myporfolio/static/js/2.621eb7f8.chunk.js",
+    "static/js/2.621eb7f8.chunk.js.map": "/myporfolio/static/js/2.621eb7f8.chunk.js.map",
+    "static/js/3.6ec4d572.chunk.js": "/myporfolio/static/js/3.6ec4d572.chunk.js",
+    "static/js/3.6ec4d572.chunk.js.map": "/myporfolio/static/js/3.6ec4d572.chunk.js.map",
+    "index.html": "/myporfolio/index.html",
+    "static/css/2.adb406d7.chunk.css.map": "/myporfolio/static/css/2.adb406d7.chunk.css.map",
+    "static/css/main.97b372fd.chunk.css.map": "/myporfolio/static/css/main.97b372fd.chunk.css.map",
+    "static/js/2.621eb7f8.chunk.js.LICENSE.txt": "/myporfolio/static/js/2.621eb7f8.chunk.js.LICENSE.txt",
+    "static/media/android.34941e28.jpeg": "/myporfolio/static/media/android.34941e28.jpeg",
+    "static/media/avatar-1.9277ecea.png": "/myporfolio/static/media/avatar-1.9277ecea.png",
+    "static/media/avatar-2.75d8f23e.png": "/myporfolio/static/media/avatar-2.75d8f23e.png",
+    "static/media/avatar-3.d6c9b46f.png": "/myporfolio/static/media/avatar-3.d6c9b46f.png",
+    "static/media/avatar-4.f7fb7ed7.png": "/myporfolio/static/media/avatar-4.f7fb7ed7.png",
+    "static/media/App.css": "/myporfolio/static/media/testimonials-bg.75612be7.jpg",
+    "static/media/jamming.9bc7fcf4.png": "/myporfolio/static/media/jamming.9bc7fcf4.png",
+    "static/media/language.bc12303b.jpg": "/myporfolio/static/media/language.bc12303b.jpg",
+    "static/media/laurea.9248ab4d.jpg": "/myporfolio/static/media/laurea.9248ab4d.jpg",
+    "static/media/ravenous.8e569875.png": "/myporfolio/static/media/ravenous.8e569875.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd00dd6a.js",
+    "static/css/2.adb406d7.chunk.css",
+    "static/js/2.621eb7f8.chunk.js",
+    "static/css/main.97b372fd.chunk.css",
+    "static/js/main.5de94b21.chunk.js"
+  ]
+}
